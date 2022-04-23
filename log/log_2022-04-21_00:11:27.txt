@@ -1,0 +1,15 @@
+------------------------------2022-04-21 00:11:27------------------------------
+model:ResNet_50_SE
+dataset_name:UAV_0323
+num_classes:3
+batch_size:16
+num_worker:1
+process_IQ:True
+num_epoch:10
+learning_rate:0.001
+signal_len:50176, 8
+iter_smooth:1
+checkpoint_name:50%trainUAV_0323_50%test—UAV_0324_acc:ResNet_50_SE.pth
+Epoch [1/10], Iter [1/10692], lr: 0.001000, Loss: 1.1214, top1: 31.2500
+Epoch [1/10], Iter [2/10692], lr: 0.001000, Loss: 1.0679, top1: 50.0000
+Epoch [1/10], Iter [3/10692], lr: 0.001000, Loss: 1.2083, top1: 31.2500

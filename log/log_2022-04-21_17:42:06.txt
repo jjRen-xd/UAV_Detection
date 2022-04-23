@@ -1,0 +1,12 @@
+------------------------------2022-04-21 17:42:06------------------------------
+model:ResNet_50_SE
+dataset_name:UAV_0323
+num_classes:2
+batch_size:32
+num_worker:4
+process_IQ:True
+num_epoch:10
+learning_rate:0.01
+signal_len:50176, 8
+iter_smooth:1
+checkpoint_name:50%trainUAV_0323_100%test—UAV_0324_acc:ResNet_50_SE.pth
